@@ -26,7 +26,7 @@ body {
 .grid-item:nth-child(85),
 .grid-item:nth-child(86),
 .grid-item:nth-child(87) {
-    background: linear-gradient(rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
@@ -36,7 +36,7 @@ body {
 .grid-item:nth-child(17),
 .grid-item:nth-child(95),
 .grid-item:nth-child(96) {
-    background: linear-gradient(to top, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(to top, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
@@ -46,7 +46,7 @@ body {
 .grid-item:nth-child(49),
 .grid-item:nth-child(69),
 .grid-item:nth-child(59) {
-    background: linear-gradient(to right, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(to right, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
@@ -56,171 +56,171 @@ body {
 .grid-item:nth-child(50),
 .grid-item:nth-child(60),
 .grid-item:nth-child(62) {
-    background: linear-gradient(to left, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(to left, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 /*Top Left*/
 .grid-item:nth-child(4) {
-    background: linear-gradient(155deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(155deg, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(13) {
-    background: linear-gradient(155deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(155deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(3) {
-    background: linear-gradient(155deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(155deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(31) {
-    background: linear-gradient(110deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(110deg, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(23) {
-    background: linear-gradient(-45deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-45deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(22) {
-    background: linear-gradient(125deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(125deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(21) {
-    background: linear-gradient(125deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(125deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(12) {
-    background: linear-gradient(135deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(135deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 /*Top Right*/
 .grid-item:nth-child(7) {
-    background: linear-gradient(-155deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-155deg, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(18) {
-    background: linear-gradient(-155deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-155deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(8) {
-    background: linear-gradient(-155deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-155deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(40) {
-    background: linear-gradient(-110deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-110deg, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(28) {
-    background: linear-gradient(45deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(45deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(29) {
-    background: linear-gradient(-125deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-125deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(30) {
-    background: linear-gradient(-125deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-125deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 .grid-item:nth-child(19) {
-    background: linear-gradient(-135deg, rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
+    background: linear-gradient(-135deg, transparent, transparent, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9));
     position: relative;
 }
 
 /*Bottom Left*/
 .grid-item:nth-child(94) {
-    background: linear-gradient(-155deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-155deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(83) {
-    background: linear-gradient(-155deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-155deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(93) {
-    background: linear-gradient(-155deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-155deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(61) {
-    background: linear-gradient(-110deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-110deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(73) {
-    background: linear-gradient(45deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(45deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(72) {
-    background: linear-gradient(-125deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-125deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(71) {
-    background: linear-gradient(-125deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-125deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(82) {
-    background: linear-gradient(-135deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-135deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 /*Bottom Right*/
 .grid-item:nth-child(97) {
-    background: linear-gradient(155deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(155deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(88) {
-    background: linear-gradient(155deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(155deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(98) {
-    background: linear-gradient(155deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(155deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(70) {
-    background: linear-gradient(110deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(110deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(78) {
-    background: linear-gradient(-45deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(-45deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(79) {
-    background: linear-gradient(125deg, rgb(190, 157, 190, 0.9), rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(125deg, transparent, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent);
     position: relative;
 }
 
 .grid-item:nth-child(80) {
-    background: linear-gradient(125deg, rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(125deg, rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 
 .grid-item:nth-child(89) {
-    background: linear-gradient(135deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9), rgb(190, 157, 190, 0.9));
+    background: linear-gradient(135deg, rgb(53, 94, 59, 0.9), rgb(53, 94, 59, 0.9), transparent, transparent, transparent);
     position: relative;
 }
 

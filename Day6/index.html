@@ -1,0 +1,71 @@
+<html>
+
+<header id="merryChristmas">
+    <link rel="stylesheet" href="styles.css">
+</header>
+
+<body>
+    <section>
+        <p>
+        <div class="container">
+            <div class="month" id="monthValue"></div>
+            <div class="day" id="dayValue"></div>
+            <b>
+                <div class="date" id="dateValue"></div>
+            </b>
+            <div class="year" id="yearValue"></div>
+        </div>
+        </p>
+    </section>
+
+    <script>
+        const date = new Date();
+        document.getElementById("monthValue").innerHTML = new Intl.DateTimeFormat('en', { month: 'long' }).format(date);
+        document.getElementById("yearValue").innerHTML = date.getFullYear();
+        document.getElementById("dateValue").innerHTML = date.getDate();
+        document.getElementById("dayValue").innerHTML = new Intl.DateTimeFormat('en', { weekday: 'long' }).format(date);
+    </script>
+
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+
+</html>

@@ -1,0 +1,72 @@
+<html>
+
+<header id="merryChristmas">
+    <link rel="stylesheet" href="styles.css">
+    <p>&#127877; Better Call Santa &#127877;</p>
+</header>
+
+<body>
+    <section>
+        <p>
+        <div>&#128222; Santa's Contact: <span id="phoneNumber"></span></div>
+        </p>
+    </section>
+
+    <script>
+        function formatPhoneNumber(number) {
+            if (number.match(/^\d{10}$/g)) {
+                let firstBlock = number.substring(0, 3);
+                let secondBlock = number.substring(3, 6);
+                let thirdBlock = number.substring(6);
+                return `(${firstBlock}) ${secondBlock}-${thirdBlock}`;
+            }
+            return number;
+        }
+
+        let output = formatPhoneNumber("5058425662");
+        document.getElementById("phoneNumber").innerHTML = output;
+    </script>
+
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+            <div class="inner">❅</div>
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+
+</html>

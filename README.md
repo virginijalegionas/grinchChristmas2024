@@ -10,3 +10,4 @@
 - Day8: Santa’s sleigh has a fixed speed (e.g., 10 km/h), and each house has a distance from his starting point at [0, 0].
 Write a function calculateDeliveryTime(houses, speed) that:
 Calculates the total time Santa will take to visit all the houses (returning to [0, 0] after delivery).
+- Day9: Use CSS to create a custom cursor on a Christmas-themed webpage

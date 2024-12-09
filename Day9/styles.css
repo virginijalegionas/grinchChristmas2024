@@ -1,0 +1,293 @@
+body {
+    background: linear-gradient(to right, rgb(190, 157, 190), rgb(56, 3, 106));
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    cursor: progress;
+}
+
+.movement {
+    padding: 20px;
+    cursor: cell;
+}
+
+.movement:hover {
+    animation: shakeCursor 0.5s ease-in-out infinite;
+}
+
+@keyframes shakeCursor {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(7, 100px);
+}
+
+.grid-item {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item:nth-child(2),
+.grid-item:nth-child(4) {
+    cursor: all-scroll;
+}
+
+.grid-item:nth-child(6),
+.grid-item:nth-child(8) {
+    cursor: cell;
+}
+
+.grid-item:nth-child(14),
+.grid-item:nth-child(22) {
+    cursor: grab;
+}
+
+.grid-item:nth-child(28),
+.grid-item:nth-child(36) {
+    cursor: wait;
+}
+
+.grid-item:nth-child(39),
+.grid-item:nth-child(42) {
+    cursor: zoom-in;
+}
+
+.grid-item:nth-child(44),
+.grid-item:nth-child(46),
+.grid-item:nth-child(48) {
+    cursor: not-allowed;
+}
+
+.grid-item:nth-child(1),
+.grid-item:nth-child(16),
+.grid-item:nth-child(34),
+.grid-item:nth-child(37) {
+    cursor: url('./images/candy.png'), wait;
+}
+
+.grid-item:nth-child(3),
+.grid-item:nth-child(12),
+.grid-item:nth-child(4),
+.grid-item:nth-child(30) {
+    cursor: url('./images/deer.png'), wait;
+}
+
+.grid-item:nth-child(5),
+.grid-item:nth-child(23),
+.grid-item:nth-child(26),
+.grid-item:nth-child(41) {
+    cursor: url('./images/firework.png'), wait;
+}
+
+.grid-item:nth-child(7),
+.grid-item:nth-child(25),
+.grid-item:nth-child(38),
+.grid-item:nth-child(43) {
+    cursor: url('./images/gift.png'), wait;
+}
+
+.grid-item:nth-child(9),
+.grid-item:nth-child(24),
+.grid-item:nth-child(27),
+.grid-item:nth-child(45) {
+    cursor: url('./images/xmasTree.PNG'), wait;
+}
+
+.grid-item:nth-child(11),
+.grid-item:nth-child(29),
+.grid-item:nth-child(32),
+.grid-item:nth-child(47) {
+    cursor: url('./images/santa.png'), wait;
+}
+
+.grid-item:nth-child(13),
+.grid-item:nth-child(18),
+.grid-item:nth-child(31),
+.grid-item:nth-child(49) {
+    cursor: url('./images/snowflake.PNG'), wait;
+}
+
+.grid-item:nth-child(10),
+.grid-item:nth-child(15),
+.grid-item:nth-child(20),
+.grid-item:nth-child(33) {
+    cursor: url('./images/snowman.PNG'), wait;
+}
+
+.grid-item:nth-child(17),
+.grid-item:nth-child(19),
+.grid-item:nth-child(35),
+.grid-item:nth-child(40) {
+    cursor: url('./images/sparkler.png'), wait;
+}
+
+/*Snowing effect*/
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    position: fixed;
+    top: -10%;
+    z-index: 9999;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    animation-name: snowflakes-shake;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out
+}
+
+.snowflake,
+.snowflake .inner {
+    animation-iteration-count: infinite;
+    animation-play-state: running
+}
+
+.snowflake .inner {
+    animation-duration: 10s;
+    animation-name: snowflakes-fall;
+    animation-timing-function: linear
+}
+
+@keyframes snowflakes-fall {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(110vh)
+    }
+}
+
+@keyframes snowflakes-shake {
+
+    0%,
+    100% {
+        transform: translateX(0)
+    }
+
+    50% {
+        transform: translateX(80px)
+    }
+}
+
+.snowflake:nth-of-type(0) {
+    left: 1%;
+    animation-delay: 0s
+}
+
+.snowflake:nth-of-type(0) .inner {
+    animation-delay: 0s
+}
+
+.snowflake:first-of-type {
+    left: 10%;
+    animation-delay: 1s
+}
+
+.snowflake:first-of-type .inner,
+.snowflake:nth-of-type(8) .inner {
+    animation-delay: 1s
+}
+
+.snowflake:nth-of-type(2) {
+    left: 20%;
+    animation-delay: .5s
+}
+
+.snowflake:nth-of-type(2) .inner,
+.snowflake:nth-of-type(6) .inner {
+    animation-delay: 6s
+}
+
+.snowflake:nth-of-type(3) {
+    left: 30%;
+    animation-delay: 2s
+}
+
+.snowflake:nth-of-type(11) .inner,
+.snowflake:nth-of-type(3) .inner {
+    animation-delay: 4s
+}
+
+.snowflake:nth-of-type(4) {
+    left: 40%;
+    animation-delay: 2s
+}
+
+.snowflake:nth-of-type(10) .inner,
+.snowflake:nth-of-type(4) .inner {
+    animation-delay: 2s
+}
+
+.snowflake:nth-of-type(5) {
+    left: 50%;
+    animation-delay: 3s
+}
+
+.snowflake:nth-of-type(5) .inner {
+    animation-delay: 8s
+}
+
+.snowflake:nth-of-type(6) {
+    left: 60%;
+    animation-delay: 2s
+}
+
+.snowflake:nth-of-type(7) {
+    left: 70%;
+    animation-delay: 1s
+}
+
+.snowflake:nth-of-type(7) .inner {
+    animation-delay: 2.5s
+}
+
+.snowflake:nth-of-type(8) {
+    left: 80%;
+    animation-delay: 0s
+}
+
+.snowflake:nth-of-type(9) {
+    left: 90%;
+    animation-delay: 1.5s
+}
+
+.snowflake:nth-of-type(9) .inner {
+    animation-delay: 3s
+}
+
+.snowflake:nth-of-type(10) {
+    left: 25%;
+    animation-delay: 0s
+}
+
+.snowflake:nth-of-type(11) {
+    left: 65%;
+    animation-delay: 2.5s
+}

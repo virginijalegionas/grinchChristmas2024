@@ -1,0 +1,1 @@
+select SUM(retail_price) from customer_gift_purchases where retail_price > 0 ;

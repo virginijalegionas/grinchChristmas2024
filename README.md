@@ -13,3 +13,4 @@ Calculates the total time Santa will take to visit all the houses (returning to 
 - Day9: Use CSS to create a custom cursor on a Christmas-themed webpage
 - Day10: Help Santa to sum up all the sales. script from starter database
 - Day11: Program to light up the light bulb, when you click on it with JavaScript. Use stater files 
+- Day12: Help Santa to sum up - How much has the customer with the id 20 spent on gifts in the “read” category. Use starte DB

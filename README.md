@@ -17,3 +17,4 @@ Calculates the total time Santa will take to visit all the houses (returning to 
 - Day13: Create a function called greetCustomer that gives each guest a warm, holiday-themed greeting based on how often they’ve visited!
 - Day14: Write a SQL to find the amount of participants who got the gifts they had wished for
 - Day15: Write the function getItemPriceByName to return the price of the item whose name is passed in.
+- Day16: Write JavaScript function “elfMorse” that converts messages to special holiday-themed Morse code where: Dots (.) are replaced with “ho” and dashes (-) with “hoho”

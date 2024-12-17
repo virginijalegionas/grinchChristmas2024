@@ -10,17 +10,17 @@ body {
     color: white;
 }
 
-#merryChristmas {
+.merryChristmas {
     font-size: 30pt;
     text-shadow: 3px 3px 1px rgb(52, 42, 52);
 }
 
-#withLove {
+.withLove {
     color: green;
     font-size: 25pt;
 }
 
-#shadowBox {
+.shadowBox {
     background-color: rgb(121, 81, 121);
     font-size: 20pt;
     color: red;
@@ -29,7 +29,7 @@ body {
     border-radius: 15px;
     font-family: 'Good Vibes';
     align-items: center;
-    width: 1000px;
+    width: 900px;
     height: 100px;
 }
 

@@ -14,7 +14,7 @@ let customerData = {
 };
 
 function greetCustomer(customer) {
-    var table = document.getElementById("welcome");
+    let table = document.getElementById("welcome");
     if (customer in customerData) {
         if (customerData[customer].visits == 1) {
             table.insertRow(-1).innerHTML = `Ho ho ho! Welcome back, ${customer}! We\’re glad you enjoyed your first visit! 🎅`;

@@ -11,7 +11,6 @@ const items = [
 formatedItems = {}
 
 function getItemPriceByName(itemName) {
-
     if (Object.keys(formatedItems).length == 0) {
         for (let item in items) {
             formatedItems[items[item]["name"]] = {
@@ -22,7 +21,7 @@ function getItemPriceByName(itemName) {
             }
         }
     }
-    var table = document.getElementById("giftCost");
+    let table = document.getElementById("giftCost");
     table.insertRow(-1).innerHTML = `Gift "${itemName}" costs: ${formatedItems[itemName]["price"]}`;
 }
 

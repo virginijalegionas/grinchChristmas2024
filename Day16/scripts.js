@@ -1,7 +1,7 @@
 function elfMorse() {
-    /* taking input from input field */
-    var message = document.getElementById("greeting").value.toUpperCase();
-    convertedMessage = "";
+    // taking input from input field
+    const message = document.getElementById("greeting").value.toUpperCase();
+    let convertedMessage = "";
     for (let i = 0; i < message.length; i++) {
         switch (message[i]) {
             case "A":
@@ -82,10 +82,10 @@ function elfMorse() {
             case "Z":
                 convertedMessage += "hoho hoho ho ho ";
                 break;
-            case " ": /* if greeting contains few words additional space added between words */
+            case " ": //if greeting contains few words additional space added between words
                 convertedMessage += "&nbsp;";
                 break;
-            default: /* if a special char, number or any other unrecognized character appears it will be printed as it is */
+            default: // if a special char, number or any other unrecognized character appears it will be printed as it is
                 convertedMessage += `${message[i]} `;
                 break;
         }

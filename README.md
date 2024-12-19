@@ -18,3 +18,10 @@ Calculates the total time Santa will take to visit all the houses (returning to 
 - Day14: Write a SQL to find the amount of participants who got the gifts they had wished for
 - Day15: Write the function getItemPriceByName to return the price of the item whose name is passed in.
 - Day16: Write JavaScript function “elfMorse” that converts messages to special holiday-themed Morse code where: Dots (.) are replaced with “ho” and dashes (-) with “hoho”
+- Day17: From the long list of people and “deed points”, find the top 3 people with highest points
+- Day18: Build a website with visitor greeting, ask user to type their favorite flavors(separated by ,) and compile result into how many times each flavor was added:
+🎅 Froyo Flavor Totals: 🎅
+Vanilla: 3 servings
+Coffee: 2 servings
+Strawberry: 1 serving
+- Day19: Help Santa’s elves make sense of these measurements by writhing a program that can convert freedom units to metric and calculate route lenght in cm

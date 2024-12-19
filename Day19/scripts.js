@@ -4,7 +4,7 @@ function sumRouteToUS(data) {
     let routeLength = 0
     const rows = data.split("\n"); //read data from file line by line
     rows.forEach(row => {
-        const number = row.match(/(\d+)/);  //get number       
+        const number = row.match(/\d+/);  //get number       
         const numberValue = parseInt(number[0]) // convert to int
         const measure = row.match(/[a-zA-Z]+/); // get mesurement
         switch (measure[0]) { //according to the measurement make conversion

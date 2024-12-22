@@ -26,3 +26,5 @@ Coffee: 2 servings
 Strawberry: 1 serving
 - Day19: Help Santa’s elves make sense of these measurements by writhing a program that can convert freedom units to metric and calculate route lenght in cm
 - Day20: using starter files write a script which puts gnomes on the bench
+- Day21: from a given json file of many routes, calculate the longest and the shortest route
+- Day22: Create a show predicting system, from the given temperatures and humidity

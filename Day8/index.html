@@ -17,17 +17,17 @@
         function calculateDeliveryTime(houses, speed) {
             let time = 0;
             let currentHouse = [0, 0];
-            let toalDistance = 0;
+            let totalDistance = 0;
             for (let i = 0; i < houses.length; i++) {
                 let aPower = (currentHouse[0] - houses[i][0]) ** 2;
                 let bPower = (currentHouse[1] - houses[i][1]) ** 2;
                 distance = Math.sqrt(aPower + bPower);
-                toalDistance += distance;
+                totalDistance += distance;
                 currentHouse = houses[i];
             }
             let homeBackDistance = Math.sqrt(currentHouse[0] ** 2 + currentHouse[1] ** 2);
-            toalDistance += homeBackDistance;
-            time = toalDistance / speed;
+            totalDistance += homeBackDistance;
+            time = totalDistance / speed;
             return time;
         }
 
